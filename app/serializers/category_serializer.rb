@@ -1,4 +1,4 @@
-class BandSerializer < ActiveModel::Serializer
+class CategorySerializer < ActiveModel::Serializer
   attributes :id, :name  
-  #has_many :members
+  has_many :products
 end
